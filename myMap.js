@@ -2,7 +2,11 @@
 
 function myMap(arr, callback) {
 
-//  CODE INSIDE HERE   //
+for (var i = 0; i < arr.length; i++) {
+
+
+	var newArray = callback(i, arr[i]);
+}
 
 }
 
