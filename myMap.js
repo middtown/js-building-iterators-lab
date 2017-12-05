@@ -6,7 +6,6 @@ function myMap(arr, callback) {
 
 for (var i = 0; i < arr.length; i++) {
 
-
 	newArray[i] = callback (arr[i], i, arr);
 }
 return newArray;
